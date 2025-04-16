@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    background-color: #00072d;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zagl {
+    color: #ef476f;
+    font-size: 10vh;
+    font-style: oblique;
+    text-decoration: 5px wavy underline;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    background-color: #001c55;
+    color: #a6e1fa;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 20px;
+}
+
+.info {
+    width: 100vw;
+    height: 500px;
+    background-color: #001c55;
+    
+}
+
+p {
+    color: #a6e1fa;
+    padding: 30px;
+    font-size: 20px;
+}
