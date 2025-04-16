@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.fon {
+    width: 100vw;
+    height: 100vh;
+    background-color: #00072d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    background-color: #001c55;
+    width: 5vh;
+    height: 61vh;
+    padding: 1vh;
+}
+
+.color-box, .tool {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 1vh;
+    border: 1px solid #a6e1fa;
+}
+.color-box:hover{
+    opacity: 0.5;
+}
+
+.canvas {
+    background-color: #000000;
+    width: 90vh;
+    height: 60vh;
+    margin-left: 5vh;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 1px;
+}
+
+.cell {
+    background-color: rgb(40,50,70);
+}
+.cell:hover{
+    opacity: 0.5;
+}
